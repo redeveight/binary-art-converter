@@ -10,12 +10,6 @@ font_path = ""
 def main():
     dir(Image)
     file_name = output_image_path
-    # picture = Image.open('D:\\MV5BODI5Mzk4NDYwNF5BMl5BanBnXkFtZTgwOTYzOTg4OTE@._V1_.jpg')
-
-    # picture = picture.resize((int(picture.size[0] / 1), int(picture.size[1] / 1)))
-    # dim = picture.size
-    # print(f"This is the current width and height of the image: {dim}")
-    # picture.save("Compressed_" + file_name, optimize=True, quality=80)
 
     image = Image.open(image_path)
     scaleFac = 0.9
