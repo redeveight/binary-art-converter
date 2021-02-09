@@ -1,1 +1,1 @@
-## binary-art-converter
+### binary-art-converter
